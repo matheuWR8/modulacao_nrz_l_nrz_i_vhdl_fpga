@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_NRZL_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_NRZL" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="507.024 ns"></ZoomStartTime>
+      <ZoomEndTime time="947.525 ns"></ZoomEndTime>
+      <Cursor1Time time="713.024 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="204"></NameColumnWidth>
+      <ValueColumnWidth column_width="178"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/tb_NRZL/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_NRZL/btn" type="logic">
+      <obj_property name="ElementShortName">btn</obj_property>
+      <obj_property name="ObjectShortName">btn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_NRZL/DUT/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_NRZL/o_swv" type="array">
+      <obj_property name="ElementShortName">o_swv[15:0]</obj_property>
+      <obj_property name="ObjectShortName">o_swv[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_NRZL/nrzl_out" type="logic">
+      <obj_property name="ElementShortName">nrzl_out</obj_property>
+      <obj_property name="ObjectShortName">nrzl_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_NRZL/DUT/leds_out" type="array">
+      <obj_property name="ElementShortName">leds_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">leds_out[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_NRZL/CLK_PER" type="other">
+      <obj_property name="ElementShortName">CLK_PER</obj_property>
+      <obj_property name="ObjectShortName">CLK_PER</obj_property>
+   </wvobject>
+</wave_config>
