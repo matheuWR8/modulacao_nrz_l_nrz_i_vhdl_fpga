@@ -1,11 +1,13 @@
 # Modulação Digital em VHDL
 
-Trabalho da disciplina de Comunicação de Dados - Sistemas Reconfiguraveis, ministrada pelo professor doutor Vinicius Borges. Semestre 2026/1.
+Trabalho da disciplina de Comunicação de Dados - Sistemas Reconfiguraveis, ministrada pelo Prof. Dr. Vinicius Borges. Semestre 2026/1.
 
 ## Integrantes
 
-- Nome 1
-- Nome 2
+- Gabriel Melo Santos
+- Henrique Alves Ferreira
+- Matheus da Silva Souza
+- Rafael Ruppert Barrocal
 
 ## Descrição
 
