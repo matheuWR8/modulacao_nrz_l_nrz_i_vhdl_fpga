@@ -1,8 +1,6 @@
 # Modulação NRZ-I
 
-Implementação em VHDL da modulação Unipolar NRZ-I, em que o bit
-é representado pela transição do pulso no início do intervalo
-de bit (1 = inversão do nível, 0 = mantém o nível anterior).
+Implementação em VHDL da modulação Unipolar NRZ-I, em que o bit é representado pela transição do pulso no início do intervalo de bit (1 = inversão do nível, 0 = mantém o nível anterior).
 
 ## Estrutura desta pasta
 
@@ -25,12 +23,9 @@ nrz_i/
 ## Documentação
 
 [SUBSTITUIR]
-- [Tutorial de simulação](./docs/tutorial_simulacao.pdf) -
-como simular no Vivado passo a passo
-- [Tutorial de gravação na placa](./docs/tutorial_placa.pdf) -
-como sintetizar, gerar bitstream e gravar na FPGA
-- [Documentação técnica](./docs/documentacao_projeto.pdf) -
-diagrama de blocos, descrição das portas e funcionamento
+- [Tutorial de simulação](./docs/tutorial_simulacao.pdf) - como simular no Vivado passo a passo
+- [Tutorial de gravação na placa](./docs/tutorial_placa.pdf) - como sintetizar, gerar bitstream e gravar na FPGA
+- [Documentação técnica](./docs/documentacao_projeto.pdf) - diagrama de blocos, descrição das portas e funcionamento
 
 ## Por onde começar
 
@@ -40,16 +35,11 @@ Para uma **simulação rápida** (apenas ver funcionando):
 
 Para **reproduzir o projeto do zero**, siga esta ordem:
 [SUBSTITUIR]
-1. **Entenda o circuito** lendo a
-[documentação técnica](./docs/documentacao_projeto.pdf)
-2. **Compare com o NRZ-L** (vimos no projeto anterior) para
-identificar as diferenças na lógica de transição
-3. **Simule no Vivado** seguindo o
-[tutorial de simulação](./docs/tutorial_simulacao.pdf)
-4. **Grave na placa** seguindo o
-[tutorial de gravação](./docs/tutorial_placa.pdf)
-5. (Opcional) Explore os
-[extras](./extras/) - PMOD e VGA
+1. **Entenda o circuito** lendo a [documentação técnica](./docs/documentacao_projeto.pdf)
+2. **Compare com o NRZ-L** (vimos no projeto anterior) para identificar as diferenças na lógica de transição
+3. **Simule no Vivado** seguindo o [tutorial de simulação](./docs/tutorial_simulacao.pdf)
+4. **Grave na placa** seguindo o [tutorial de gravação](./docs/tutorial_placa.pdf)
+5. (Opcional) Explore os [extras](./extras/) - PMOD e VGA
 
 ## Extras (opcionais)
 
@@ -58,7 +48,4 @@ identificar as diferenças na lógica de transição
 
 ## Próximo passo
 
-Você concluiu os dois projetos do trabalho. Agora acesse o
-[Relatório técnico final](../relatorio_final/relatorio.pdf)
-para ver a análise comparativa entre NRZ-L e NRZ-I, os
-resultados obtidos e as conclusões do grupo.
+Você concluiu os dois projetos do trabalho. Agora acesse o [Relatório técnico final](../relatorio_final/relatorio.pdf) para ver a análise comparativa entre NRZ-L e NRZ-I, os resultados obtidos e as conclusões do grupo.
