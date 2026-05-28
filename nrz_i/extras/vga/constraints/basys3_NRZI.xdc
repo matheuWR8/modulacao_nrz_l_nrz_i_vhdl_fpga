@@ -23,7 +23,7 @@ set_property IOSTANDARD LVCMOS33 [get_ports nrzi_out]
 
 
 ## ── SWITCHES SW0..SW15 → o_swv[0..15] ───────────────────────
-## SW0
+## SW0 
 set_property PACKAGE_PIN V17 [get_ports {o_swv[0]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {o_swv[0]}]
 
@@ -83,13 +83,13 @@ set_property IOSTANDARD LVCMOS33 [get_ports {o_swv[13]}]
 set_property PACKAGE_PIN T1 [get_ports {o_swv[14]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {o_swv[14]}]
 
-## SW15 
+## SW15
 set_property PACKAGE_PIN R2 [get_ports {o_swv[15]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {o_swv[15]}]
 
 
 ## ── LEDs LD0..LD15 → leds_out[0..15] ────────────────────────
-## LD0 
+## LD0
 set_property PACKAGE_PIN U16 [get_ports {leds_out[0]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {leds_out[0]}]
 
@@ -149,6 +149,36 @@ set_property IOSTANDARD LVCMOS33 [get_ports {leds_out[13]}]
 set_property PACKAGE_PIN P1 [get_ports {leds_out[14]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {leds_out[14]}]
 
-## LD15 
+## LD15
 set_property PACKAGE_PIN L1 [get_ports {leds_out[15]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {leds_out[15]}]
+
+
+
+## VGA
+
+set_property PACKAGE_PIN P19 [get_ports hsync]
+set_property IOSTANDARD LVCMOS33 [get_ports hsync]
+
+set_property PACKAGE_PIN R19 [get_ports vsync]
+set_property IOSTANDARD LVCMOS33 [get_ports vsync]
+
+set_property PACKAGE_PIN J17 [get_ports {vgaGreen[0]}]
+set_property PACKAGE_PIN H17 [get_ports {vgaGreen[1]}]
+set_property PACKAGE_PIN G17 [get_ports {vgaGreen[2]}]
+set_property PACKAGE_PIN D17 [get_ports {vgaGreen[3]}]
+
+set_property PACKAGE_PIN G19 [get_ports {vgaRed[0]}]
+set_property PACKAGE_PIN H19 [get_ports {vgaRed[1]}]
+set_property PACKAGE_PIN J19 [get_ports {vgaRed[2]}]
+set_property PACKAGE_PIN N19 [get_ports {vgaRed[3]}]
+
+set_property PACKAGE_PIN N18 [get_ports {vgaBlue[0]}]
+set_property PACKAGE_PIN L18 [get_ports {vgaBlue[1]}]
+set_property PACKAGE_PIN K18 [get_ports {vgaBlue[2]}]
+set_property PACKAGE_PIN J18 [get_ports {vgaBlue[3]}]
+
+
+set_property IOSTANDARD LVCMOS33 [get_ports vgaGreen[*]]
+set_property IOSTANDARD LVCMOS33 [get_ports vgaRed[*]]
+set_property IOSTANDARD LVCMOS33 [get_ports vgaBlue[*]]

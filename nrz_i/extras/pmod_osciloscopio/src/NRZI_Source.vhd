@@ -5,7 +5,12 @@ use IEEE.NUMERIC_STD.ALL;
 -- =============================================================
 --  NRZI_Source
 --  - Reads 16-bit switch vector on button press
+--  - Transmits continuously as NRZ-I on nrzi_out (PMOD)
 --  - Mirrors NRZI accumulated states on LEDs
+--
+--  NRZ-I rule:
+--      bit '1' -> invert output
+--      bit '0' -> keep output
 -- =============================================================
 
 library IEEE;
@@ -27,7 +32,7 @@ entity NRZI_Source is
         leds_out : out STD_LOGIC_VECTOR(15 downto 0);
 
         nrzi_out : out STD_LOGIC
-
+        
     );
 
 end NRZI_Source;
@@ -166,6 +171,9 @@ begin
         end if;
     end process;
 
+    -- =========================================================
+    -- PMOD output
+    -- =========================================================
     nrzi_out <= aux_signal;
 
 end Behavioral;

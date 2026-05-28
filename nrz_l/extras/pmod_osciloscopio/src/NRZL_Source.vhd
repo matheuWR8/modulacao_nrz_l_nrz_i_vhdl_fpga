@@ -5,6 +5,7 @@ use IEEE.NUMERIC_STD.ALL;
 -- =============================================================
 --  NRZL_Source
 --  - Reads 16-bit switch vector on button press
+--  - Transmits it continuously as NRZ-L on nrzl_out (PMOD)
 --  - Mirrors the captured word on leds_out
 -- =============================================================
 
@@ -18,7 +19,7 @@ entity NRZL_Source is
         o_swv    : in  STD_LOGIC_VECTOR(15 downto 0);  -- switches
 
         leds_out : out STD_LOGIC_VECTOR(15 downto 0);  -- LED mirror
-        nrzl_out : out STD_LOGIC
+        nrzl_out : out STD_LOGIC                      -- PMOD NRZ-L output
 
     );
 end NRZL_Source;
@@ -43,7 +44,7 @@ architecture Behavioral of NRZL_Source is
 
     signal captured_swv : STD_LOGIC_VECTOR(15 downto 0) := (others => '0');
 
-    signal nrzl_reg     : STD_LOGIC := '0';   
+    signal nrzl_reg     : STD_LOGIC := '0';   -- internal copy for VGA to read
 
 begin
 
@@ -127,6 +128,7 @@ begin
         end if;
     end process;
 
+    -- Drive PMOD output from internal register
     nrzl_out <= nrzl_reg;
 
 end Behavioral;

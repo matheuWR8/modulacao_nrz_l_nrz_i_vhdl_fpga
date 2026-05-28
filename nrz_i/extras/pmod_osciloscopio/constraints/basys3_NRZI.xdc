@@ -17,8 +17,8 @@ set_property PACKAGE_PIN U18 [get_ports {btn}]
 set_property IOSTANDARD LVCMOS33 [get_ports {btn}]
 
 
-## LED EXTRA PARA SAÍDA SERIAL NRZI
-set_property PACKAGE_PIN U2 [get_ports nrzi_out]
+## PMOD JA1 output
+set_property PACKAGE_PIN J1 [get_ports nrzi_out]
 set_property IOSTANDARD LVCMOS33 [get_ports nrzi_out]
 
 
