@@ -16,7 +16,7 @@ pmod_osciloscopio/
 
 ## Equipamentos necessários
 
-- Placa FPGA <modelo>
+- Placa FPGA xc7a35tcpg236-1
 - Osciloscópio (mínimo 10 MHz)
 - Cabo BNC ou pontas de prova para conectar ao PMOD
 
