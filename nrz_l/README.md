@@ -24,7 +24,7 @@ nrz_l/
 
 [SUBSTITUIR]
 - [Tutorial de simulação](./docs/tutorial_simulacao.pdf) - como simular no Vivado passo a passo
-- [Tutorial de gravação na placa](./docs/tutorial_placa.pdf) - como sintetizar, gerar bitstream e gravar na FPGA
+- [Tutorial de gravação na placa](./docs/tutorial_placa_NRZL.pdf) - como sintetizar, gerar bitstream e gravar na FPGA
 - [Documentação técnica](./docs/documentacao_projeto.pdf) - diagrama de blocos, descrição das portas e funcionamento
 
 ## Por onde começar
@@ -36,5 +36,5 @@ Para uma **simulação rápida** (apenas ver funcionando):
 Para **reproduzir o projeto do zero**, siga esta ordem:
 [SUBSTITUIR]
 1. **Entenda o circuito** lendo a [documentação técnica](./docs/documentacao_projeto.pdf)
-2. **Simule no Vivado** seguindo o [tutorial de simulação](./docs/tutorial_simulacao.pdf)
+2. **Simule no Vivado** seguindo o [tutorial de simulação](./docs/tutorial_simulacao_NRZI.pdf)
 3. **Grave na placa** seguindo o [tutorial de gravação](./docs/tutorial_placa.pdf)
