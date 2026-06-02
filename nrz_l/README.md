@@ -22,9 +22,8 @@ nrz_l/
 
 ## Documentação
 
-[SUBSTITUIR]
-- [Tutorial de simulação](./docs/tutorial_simulacao.pdf) - como simular no Vivado passo a passo
-- [Tutorial de gravação na placa](./docs/tutorial_placa_NRZL.pdf) - como sintetizar, gerar bitstream e gravar na FPGA
+- [Tutorial de simulação](./docs/tutorial_simulacao_NRZL.pdf) - como simular no Vivado passo a passo
+- [Tutorial de gravação na placa](./docs/Tutorial_NRZL_Placa.pdf) - como sintetizar, gerar bitstream e gravar na FPGA
 - [Documentação técnica](./docs/documentacao_projeto.pdf) - diagrama de blocos, descrição das portas e funcionamento
 
 ## Por onde começar
@@ -34,7 +33,6 @@ Para uma **simulação rápida** (apenas ver funcionando):
 2. Clicar em `Run Simulation` -> `Run Behavioral Simulation`
 
 Para **reproduzir o projeto do zero**, siga esta ordem:
-[SUBSTITUIR]
 1. **Entenda o circuito** lendo a [documentação técnica](./docs/documentacao_projeto.pdf)
-2. **Simule no Vivado** seguindo o [tutorial de simulação](./docs/tutorial_simulacao_NRZI.pdf)
-3. **Grave na placa** seguindo o [tutorial de gravação](./docs/tutorial_placa.pdf)
+2. **Simule no Vivado** seguindo o [tutorial de simulação](./docs/tutorial_simulacao_NRZL.pdf)
+3. **Grave na placa** seguindo o [tutorial de gravação](./docs/Tutorial_NRZL_Placa.pdf)

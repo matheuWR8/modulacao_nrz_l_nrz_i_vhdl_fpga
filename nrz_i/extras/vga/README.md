@@ -10,6 +10,8 @@ pmod_osciloscopio/
  Código VHDL adaptado com saída no VGA
 |-- constraints/
  Constraint com mapeamento dos pinos do VGA e dados do monitor e das cores
+|-- NRZI_VGA/
+ Pasta do projeto do Vivado
 `-- docs/
  Tutorial e capturas do display
 ```
@@ -22,7 +24,7 @@ pmod_osciloscopio/
 
 ## Como reproduzir
 
-Ver o [tutorial completo](./docs/Tutorial_NRZL_VGA.pdf), que descreve:
+Ver o [tutorial completo](./docs/Tutorial_NRZI_VGA.pdf), que descreve:
 1. Conexão física do cabo VGA
 2. Gravação do bitstream
 3. Exibição da oscilação das cores no monitor-

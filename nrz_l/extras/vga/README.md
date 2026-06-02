@@ -10,6 +10,8 @@ pmod_osciloscopio/
  Código VHDL adaptado com saída no VGA
 |-- constraints/
  Constraint com mapeamento dos pinos do VGA e dados do monitor e das cores
+|-- NRZL_VGA/
+ Pasta do projeto do Vivado
 `-- docs/
  Tutorial e capturas do display
 ```

@@ -10,6 +10,8 @@ pmod_osciloscopio/
  Código VHDL adaptado com saída no PMOD
 |-- constraints/
  Constraint com mapeamento do pino PMOD
+|-- NRZI_PMOD/
+ Pasta do projeto do Vivado
 `-- docs/
  Tutorial e capturas do osciloscópio
 ```
@@ -22,7 +24,7 @@ pmod_osciloscopio/
 
 ## Como reproduzir
 
-Ver o [tutorial completo](./docs/tutorial_pmod.pdf), que descreve:
+Ver o [tutorial completo](./docs/Tutorial_NRZI_PMOD.pdf), que descreve:
 1. Conexão física do osciloscópio ao pino do PMOD
 2. Gravação do bitstream
 3. Configuração da escala do osciloscópio

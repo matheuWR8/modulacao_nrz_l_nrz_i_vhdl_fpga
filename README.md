@@ -4,10 +4,10 @@ Trabalho da disciplina de Comunicação de Dados - Sistemas Reconfiguraveis, min
 
 ## Integrantes
 
-- Gabriel Melo Santos
-- Henrique Alves Ferreira
-- Matheus da Silva Souza
-- Rafael Ruppert Barrocal
+- Gabriel Melo Santos (081230044)
+- Henrique Alves Ferreira (081230015)
+- Matheus da Silva Souza (081230011)
+- Rafael Ruppert Barrocal (081230002)
 
 ## Descrição
 
@@ -32,7 +32,8 @@ Cada projeto possui sua própria pasta `docs/` com tutoriais e documentação t�
 ## Relatório
 
 - [Relatório técnico final](./relatorio_final/relatorio.pdf)
-- [Vídeo de demonstração](./relatorio_final/video_demo.mp4)
+- [Vídeo de demonstração NRZ-L](./relatorio_final/video_demo_nrzl.mp4)
+- [Vídeo de demonstração NRZ-I](./relatorio_final/video_demo_nrzi.mp4)
 
 ## Ferramentas utilizadas
 

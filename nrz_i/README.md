@@ -22,9 +22,8 @@ nrz_i/
 
 ## Documentação
 
-[SUBSTITUIR]
 - [Tutorial de simulação](./docs/tutorial_simulacao_NRZI.pdf) - como simular no Vivado passo a passo
-- [Tutorial de gravação na placa](./docs/tutorial_placa.pdf) - como sintetizar, gerar bitstream e gravar na FPGA
+- [Tutorial de gravação na placa](./docs/Tutorial_NRZI_Placa.pdf) - como sintetizar, gerar bitstream e gravar na FPGA
 - [Documentação técnica](./docs/documentacao_projeto.pdf) - diagrama de blocos, descrição das portas e funcionamento
 
 ## Por onde começar
@@ -34,11 +33,10 @@ Para uma **simulação rápida** (apenas ver funcionando):
 2. Clicar em `Run Simulation` -> `Run Behavioral Simulation`
 
 Para **reproduzir o projeto do zero**, siga esta ordem:
-[SUBSTITUIR]
 1. **Entenda o circuito** lendo a [documentação técnica](./docs/documentacao_projeto.pdf)
 2. **Compare com o NRZ-L** (vimos no projeto anterior) para identificar as diferenças na lógica de transição
 3. **Simule no Vivado** seguindo o [tutorial de simulação](./docs/tutorial_simulacao_NRZI.pdf)
-4. **Grave na placa** seguindo o [tutorial de gravação](./docs/tutorial_placa.pdf)
+4. **Grave na placa** seguindo o [tutorial de gravação](./docs/Tutorial_NRZI_Placa.pdf)
 5. (Opcional) Explore os [extras](./extras/) - PMOD e VGA
 
 ## Extras (opcionais)

@@ -10,6 +10,8 @@ pmod_osciloscopio/
  Código VHDL adaptado com saída no PMOD
 |-- constraints/
  Constraint com mapeamento do pino PMOD
+|-- NRZL_PMOD/
+ Pasta do projeto do Vivado
 `-- docs/
  Tutorial e capturas do osciloscópio
 ```
